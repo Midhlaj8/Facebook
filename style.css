@@ -1,0 +1,467 @@
+*{
+margin: 0%;
+box-sizing: border-box;
+
+}
+body{
+    /* background-image: url(images/fb-home.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    overflow-x: hidden;
+}
+nav{
+    height: 91px;
+    width: 100%;
+    background-color: #4867aa; 
+} 
+.img1{
+    height: 77px;
+    margin-top: 13px;
+    margin-left: 129px;
+}
+.para1{
+    position: absolute;
+    top: 17px;
+    right: 466px;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #eaf5f0;
+}
+.span3{
+    position: absolute;
+    right: -145px;
+    top: 0px;
+}
+.input1{
+    position: absolute;
+    right: 394px;
+    top:38px ;
+    height: 22px;
+    width: 159px;
+}
+.input2{
+    height: 22px;
+    width: 159px;
+    position: absolute;
+    right: 219px;
+    top: 38px;
+}
+.a1{
+    font-family: sans-serif;
+    color: #90add5;
+    position: absolute;
+    top: 68px;
+    right: 267px;
+    font-size: 13px;
+    text-decoration: none;
+}
+.button1{
+    background-color: #4267b2;
+    position: absolute;
+    right: 150px;
+    top: 37px;
+    width: 53px;
+    height: 26px;
+    font-size: 12px;
+    color: #ffffff;
+    border-color: #2e4f89;
+    font-weight: bolder;
+    border-width: 1px;
+    border-radius: 3px;
+}
+.div{
+    width: 100%;
+    height: 558px;
+    background-image: linear-gradient(#fff,#d9ddeb);
+}
+.para2{
+    position: relative;
+    top: 45px;
+    left: 152px;
+    font-family: sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    color: #0e385f;
+}
+.span1{
+    position: relative;
+    top: 7px;
+}
+.img2{
+    position: relative;
+    top: 55px;
+    left: 155px;
+    width: 558px;
+}
+.head1{
+    display: inline;
+    font-family: sans-serif;
+    font-size: 39px;
+    position: absolute;
+    top: 115px;
+    right: 241px;
+    color: #333333;
+}
+.para3{
+    font-family: sans-serif;
+    font-size: 20.5px;
+    position: absolute;
+    top: 170px;
+    right: 406px;
+    color: #1d212c;
+}
+.input3{
+    position: absolute;
+    top: 217px;
+    right: 370px;
+    width: 199px;
+    height: 36px;
+    border-radius: 4px;
+    border-color: #bdc7d8;
+    border-top: #bdc7d8;
+    border-left: #bdc7d8;
+    font-size: 19px;
+    color: #99999a;
+}
+.input4{
+    position: absolute;
+    top: 217px;
+    right: 151px;
+    width: 199px;
+    height: 36px;
+    border-radius: 4px;
+    border-color: #bdc7d8;
+    border-top: #bdc7d8;
+    border-left: #bdc7d8;
+    font-size: 19px;
+    color: #99999a;
+}
+.input5{
+    position: absolute;
+    top: 269px;
+    right: 151px;
+    width: 420px;
+    height: 36px;
+    border-radius: 4px;
+    border-color: #bdc7d8;
+    border-top: #bdc7d8;
+    border-left: #bdc7d8;
+    font-size: 19px;
+    color: #99999a;
+}
+.input6{
+    position: absolute;
+    top: 321px;
+    right: 151px;
+    width: 420px;
+    height: 36px;
+    border-radius: 4px;
+    border-color: #bdc7d8;
+    border-top: #bdc7d8;
+    border-left: #bdc7d8;
+    font-size: 19px;
+    color: #99999a;
+}
+.label1{
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 228px;
+    right: 509px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #90949c;
+}
+.select1{
+    width: 59px;
+    height: 30px;
+    position: absolute;
+    bottom: 190px;
+    right: 517px;
+    border-radius: 0px;
+}
+.select2{
+    width: 72px;
+    height: 30px;
+    position: absolute;
+    bottom: 190px;
+    right: 442px;
+    border-radius: 0px;
+}
+.select3{
+    width: 65px;
+    height: 30px;
+    position: absolute;
+    bottom: 190px;
+    right: 374px;
+    border-radius: 0px;
+}
+.label2{
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 156px;
+    right: 517px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #90949c;
+}
+.label3,.label4,.label5{
+    font-family: sans-serif;
+    font-size: 19.5px;
+    color: #2a2529;
+}
+.label3{
+    position: absolute;
+    bottom: 120px;
+    right: 483px;
+}
+.label4{
+    position: absolute;
+    bottom: 120px;
+    right: 397px;
+}
+.label5{
+    position: absolute;
+    bottom: 120px;
+    right: 291px;
+}
+.radio1{
+    position: absolute;
+    bottom: 128px;
+    right: 555px;
+}
+.radio2{
+    position: absolute;
+    bottom: 128px;
+    right: 445px;
+}
+.radio3{
+    position: absolute;
+    bottom: 128px;
+    right: 363px;
+}
+.para4{
+    font-size: 11.88px;
+    font-family: sans-serif;
+    color: #7a7977;
+    position: absolute;
+    bottom: 60px;
+    right: 252px;
+}
+.span2{
+    color: #3f5d9b;
+}
+.button2{
+    width: 207px;
+    height: 43px;
+    background-color: #5f9a4c;
+    position: absolute;
+    right: 370px;
+    bottom: -7px;
+    border-radius: 5px;
+    border-color: #3b6e22;
+    border-bottom: #3b6e22;
+    border-left: #3b6e22;
+    border-right: #3b6e22;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fffff3;
+}
+.icon1{
+    position: absolute;
+    bottom: 204px;
+    right: 345px;
+    font-size: 17px !important;
+    display: block;
+}
+.icon2{
+    position: absolute;
+    bottom: 132px;
+    right: 252px;
+    font-size: 17px !important;
+}
+
+@media (min-width:320px) and (max-width:768px){
+    nav{
+        width: 100%;
+        height: 30px;
+    }
+    .img1{
+        height: 29px;
+        margin-top: 1px;
+        margin-left: 0px;  
+    }
+    .para1,.input1,.input2,.a1,.button1,.para2,.img2,.para3,.head1,.label1,.icon1,.icon2,.button2{
+        display: none;
+        visibility: hidden;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+    }
+    .input3{
+        position: absolute;
+        top: 60px;
+        left: 10px;
+        width: 90%;
+        height: 30px;
+        font-size: 15px;
+    }
+    .input4{
+        position: absolute;
+        top: 100px;
+        left: 10px;
+        width: 90%;
+        height: 30px;
+        font-size: 15px;
+    }
+    .input5{
+        position: absolute;
+        top: 140px;
+        left: 10px;
+        width: 90%;
+        height: 30px;
+        font-size: 15px;
+    }
+    .label2{
+        position: absolute;
+        top: 180px;
+        left: 10px;
+        color: #000;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .radio1{
+        position: absolute;
+        top: 208px;
+        left: 10px;
+        height: 10px;
+        width: 10px;
+        font-size: 15px;
+    }
+    .label3{
+        position: absolute;
+        top: 205px;
+        left: 23px;
+        font-size: 15px;
+    }
+    .radio2{
+        position: absolute;
+        top: 208px;
+        left: 95px;
+        height: 10px;
+        width: 10px;
+        font-size: 15px;
+    }
+    .label4{
+        position: absolute;
+        top: 205px;
+        left: 108px;
+        font-size: 15px;
+    }
+    .radio3{
+        position: absolute;
+        top: 208px;
+        left: 167px;
+        height: 10px;
+        width: 10px;
+        font-size: 15px;
+    }
+    .label5{
+        position: absolute;
+        top: 205px;
+        left: 180px;
+        font-size: 15px;
+    }
+    .mpara1{
+        font-weight: 500;
+        font-family: sans-serif;
+        font-size: 15px;
+        position: absolute;
+        left: 10px;
+        top: 40px;
+    }
+    .mlabel1{
+        position: absolute;
+        top: 230px;
+        left: 10px;
+        color: #000;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+    .select1{
+        position: absolute;
+        top: 260px;
+        left: 10px;
+        font-size: 15px;
+        height: 25px;
+        background-color: #fff;
+    }
+    .select2{
+        position: absolute;
+        top: 260px;
+        left: 75px;
+        font-size: 15px;
+        height: 25px;
+        background-color: #fff;
+    }
+    .select3{
+        position: absolute;
+        top: 260px;
+        left: 153px;
+        font-size: 15px;
+        height: 25px;
+        background-color: #fff;
+    }
+    .input6{
+        position: absolute;
+        top: 302px;
+        left: 10px;
+        width: 90%;
+        height: 30px;
+        font-size: 15px;
+    }
+    .para4{
+        position: absolute;
+        top: 345px;
+        left: 10px;
+        right: 0px;
+        font-size: 10px;
+    }
+    .mbutton{
+        width: 207px;
+        height: 43px;
+        background-color: #5f9a4c;
+        position: absolute;
+        bottom: 90px;
+        left: 57px;
+        border-radius: 5px;
+        border-color: #3b6e22;
+        border-bottom: #3b6e22;
+        border-left: #3b6e22;
+        border-right: #3b6e22;
+        font-size: 20px;
+        font-weight: bold;
+        color: #fffff3;
+    }
+    .ma{
+        font-family: sans-serif;
+        color: #4867aa;
+        position: absolute;
+        bottom: 67px;
+        left: 100px;
+        font-size: 13px;
+        text-decoration: none;
+        font-size: 10px;
+    }
+}
+@media (min-width:1024px){
+    .mpara1,.mlabel1,.mbutton,.ma{
+        display: none;
+    }
+}
+@media(min-width:1024px) and (max-width:1440px){
+
+}
+/* font Titillium */
